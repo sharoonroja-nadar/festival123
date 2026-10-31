@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Indian Festivals - Home</title>
+
+    
+  <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+            background-color: #fff8e1;
+        }
+
+        .header {
+            background-color:orange;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            height: 100px;
+        }
+
+        .logo-area {
+            float: left;
+            margin-left: 20px;
+        }
+
+        .logo-area img {
+            width: 130px;
+            height: 120px;
+            object-fit: contain;
+        }
+
+        /* Website name in center */
+        .site-name {
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            color: #e85d04;
+            padding: 15px 0;
+        }
+
+        /* ================= NAVIGATION ================= */
+
+        .nav {
+               background-color: #333;
+            text-align: center;
+            padding: 15px;
+margin-top:10px;
+        }
+
+        .nav a {
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            margin: 0 20px;
+            font-size: 17px;
+            font-weight: bold;
+        }
+
+        .nav a:hover {
+            color: #ffd54f;
+        }
+
+
+        /* ================= BANNER ================= */
+
+        .banner {
+            width: 100%;
+            height: 500px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .banner img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        /* Welcome text on banner */
+        .banner-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: white;
+            background: rgba(0, 0, 0, 0.45);
+            padding: 25px 45px;
+            border-radius: 10px;
+        }
+
+        .banner-text h2 {
+            font-size: 30px;
+            margin: 0 0 5px;
+        }
+
+        .banner-text h1 {
+            font-size: 42px;
+            margin: 5px 0;
+        }
+
+
+        /* ================= CATEGORIES ================= */
+
+        .categories {
+            text-align: center;
+            padding: 45px 40px;
+            background-color: #fffaf2;
+        }
+
+        .categories h2 {
+            font-size: 30px;
+            margin-bottom: 10px;
+            color: #d84315;
+        }
+
+        .categories > p {
+            font-size: 17px;
+            margin-bottom: 30px;
+        }
+
+
+        /* Category boxes */
+        .category-box {
+            display: inline-block;
+            width: 240px;
+            height: 160px;
+            margin: 12px;
+            border-radius: 10px;
+            overflow: hidden;
+            vertical-align: top;
+            background-color: white;
+            box-shadow: 0 3px 10px #cccccc;
+            position: relative;
+        }
+
+        .category-box img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        .category-box a {
+            text-decoration: none;
+            color: white;
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+
+
+        /* Category title */
+        .category-title {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            font-size: 16px;
+            font-weight: bold;
+            color: white;
+            text-align: center;
+        }
+
+
+        /* ================= FOOTER ================= */
+
+        .footer {
+            background-color: #102a43;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        .footer h2 {
+            color: #ffb703;
+        }
+
+        .footer p {
+            margin: 8px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+
+    <!-- ================= HEADER ================= -->
+
+    <div class="header">
+
+        <!-- Logo -->
+        <div class="logo-area">
+            <img src="logo.png" alt="Indian Festivals Logo">
+        </div>
+
+        <!-- Website Name -->
+        <div class="site-name">
+            Indian Festivals
+        </div>
+
+        <!-- Navigation -->
+        <div class="nav">
+
+            <a href="k.html">Home</a>
+
+            <a href="#categories">Categories</a>
+
+            <a href="about1.html">About</a>
+
+            <a href="contact1.html">Contact</a>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= BANNER ================= -->
+
+    <div class="banner">
+
+        <img src="b.jpeg" alt="Indian Festivals">
+
+        <div class="banner-text">
+
+            <h2>Welcome to</h2>
+
+            <h1>Indian Festivals</h1>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= CATEGORIES ================= -->
+
+    <div class="categories" id="categories">
+
+        <h2>Explore by Category</h2>
+
+        <p>
+            Choose a category to discover the festivals within it.
+        </p>
+
+
+        <!-- Religious -->
+        <div class="category-box">
+
+            <a href="religious.html">
+
+                <img src="r.jpeg" alt="Religious">
+
+                <div class="category-title" style="background:#d84315;">
+                    Religious Festivals →
+                </div>
+
+            </a>
+
+        </div>
+
+
+        <!-- National -->
+        <div class="category-box">
+
+            <a href="national.html">
+
+                <img src="n.jpeg" alt="National">
+
+                <div class="category-title" style="background:#00838f;">
+                    National Festivals →
+                </div>
+
+            </a>
+
+        </div>
+
+
+        <!-- Harvest -->
+        <div class="category-box">
+
+            <a href="harvest.html">
+
+                <img src="h.jpeg" alt="Harvest">
+
+                <div class="category-title" style="background:#689f38;">
+                    Harvest Festivals →
+                </div>
+
+            </a>
+
+        </div>
+
+
+        <!-- Cultural -->
+        <div class="category-box">
+
+            <a href="cultural.html">
+
+                <img src="c.jpeg" alt="Cultural">
+
+                <div class="category-title" style="background:#c62828;">
+                    Cultural Festivals →
+                </div>
+
+            </a>
+
+        </div>
+
+
+        <!-- Regional -->
+        <div class="category-box">
+
+            <a href="regional.html">
+
+                <img src="re.jpeg" alt="Regional">
+
+                <div class="category-title" style="background:#00838f;">
+                    Regional Festivals →
+                </div>
+
+            </a>
+
+        </div>
+
+
+        <!-- Seasonal -->
+        <div class="category-box">
+
+            <a href="seasonal.html">
+
+                <img src="s.jpeg" alt="Seasonal">
+
+                <div class="category-title" style="background:#e68900;">
+                    Seasonal Festivals →
+                </div>
+
+            </a>
+
+        </div>
+
+
+        <!-- Tribal -->
+        <div class="category-box">
+
+            <a href="tribal.html">
+
+                <img src="tr.jpeg" alt="Tribal">
+
+                <div class="category-title" style="background:#558b2f;">
+                    Tribal Festivals →
+                </div>
+
+            </a>
+
+        </div>
+
+
+        <!-- Traditional -->
+        <div class="category-box">
+
+            <a href="traditional.html">
+
+                <img src="t.jpeg" alt="Traditional">
+
+                <div class="category-title" style="background:#e85d04;">
+                    Traditional Festivals →
+                </div>
+
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <div class="footer">
+
+        <h2>Indian Festivals</h2>
+
+        <p>Celebrate • Explore • Know</p>
+
+        <p>
+            © 2026 Indian Festivals. All Rights Reserved.
+        </p>
+
+    </div>
+
+
+</body>
+</html>
+
